@@ -1,4 +1,4 @@
-
+<!-- 
 <p align="center">
     <img width="400px" src="http://mixandjam.com/wp-content/uploads/2019/11/git.png">    
 </p>
@@ -36,3 +36,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 * Amazing pixelart from [Nate Kling](https://twitter.com/natekling)
+ -->
