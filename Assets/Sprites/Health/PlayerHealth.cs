@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
 
     private AnimationScript anim;
 
+    private bool dead; 
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -28,8 +30,13 @@ public class PlayerHealth : MonoBehaviour
         }
         else 
         {
-            anim.SetTrigger("die");
-            //player dead
+            if(!dead)
+            {
+                anim.SetTrigger("die");
+                //player dead
+                GetComponent<PlayerMovement>().enabled = false;
+                dead = true;
+            }
         }
     }
    
@@ -39,4 +46,10 @@ public class PlayerHealth : MonoBehaviour
     if(Input.GetKeyDown(KeyCode.E))
         TakeDamage(1);
    }
+
+   public void AddHealth(float _value)
+   {
+        currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+   }
+
 }
