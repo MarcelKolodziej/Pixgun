@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4938379282783986917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.19, y: -0.165, z: 0}
+  m_LocalPosition: {x: 0.81, y: -0.165, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4927,7 +4927,7 @@ GameObject:
   - component: {fileID: 4938379283111920148}
   m_Layer: 10
   m_Name: Visual
-  m_TagString: Untagged
+  m_TagString: Visual
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5217,6 +5217,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
+  spriteRendObject: {fileID: 0}
+  iFramesDuration: 3
+  numberOfFlashes: 4
 --- !u!1 &4938379283649736702
 GameObject:
   m_ObjectHideFlags: 0
