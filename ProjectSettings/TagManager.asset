@@ -20,7 +20,7 @@ TagManager:
   - PostProcessing
   - Player
   - Enemy
-  - 
+  - Colectable
   - 
   - 
   - 
@@ -44,8 +44,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Background-2
     uniqueID: 4157197843
+    locked: 0
+  - name: Background-1
+    uniqueID: 229543455
+    locked: 0
+  - name: Water
+    uniqueID: 3928662823
     locked: 0
   - name: Ground
     uniqueID: 3935398757
