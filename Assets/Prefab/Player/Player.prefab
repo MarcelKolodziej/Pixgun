@@ -4880,8 +4880,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -999661239
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -4986,7 +4986,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -999661239
-  m_SortingLayer: 3
+  m_SortingLayer: 6
   m_SortingOrder: 10
   m_Sprite: {fileID: -289551366699679795, guid: ebcb0c2456f3c284f97d796c84969044,
     type: 3}
@@ -5127,10 +5127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 4938379283119992332}
   speed: 6.5
-  jumpForce: 11
+  jumpForce: 13.5
   slideSpeed: 0.5
   wallJumpLerp: 3
-  dashSpeed: 32
+  dashSpeed: 40
   canMove: 1
   wallGrab: 0
   wallJumped: 0
@@ -5177,8 +5177,8 @@ MonoBehaviour:
   wallSide: 1
   collisionRadius: 0.1
   bottomOffset: {x: 0, y: -0.71}
-  rightOffset: {x: 0.35, y: 0.2}
-  leftOffset: {x: -0.31, y: 0.2}
+  rightOffset: {x: 0.35, y: 0.35}
+  leftOffset: {x: -0.31, y: 0.35}
 --- !u!114 &4938379283119992343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10011,8 +10011,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -999661239
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -14835,8 +14835,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -999661239
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -19717,8 +19717,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -999661239
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0

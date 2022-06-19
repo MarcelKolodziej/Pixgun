@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Hearth
   - Visual
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Decor
+    uniqueID: 2611032247
+    locked: 0
   - name: Background-2
     uniqueID: 4157197843
     locked: 0
@@ -64,4 +68,7 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 837260933
+    locked: 0
+  - name: Platform
+    uniqueID: 3820022869
     locked: 0
