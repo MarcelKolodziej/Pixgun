@@ -8,6 +8,8 @@ public class Projectile : MonoBehaviour
     private float direction;
     private bool hit;
     private float lifeTime;
+    //private int addingSpace;
+
 
     private Animator anim;
     private BoxCollider2D boxCollider;

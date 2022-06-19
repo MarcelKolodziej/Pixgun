@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Hearth
+  - Visual
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -17,8 +20,8 @@ TagManager:
   - Ground
   - PostProcessing
   - Player
-  - 
-  - 
+  - Enemy
+  - Colectable
   - 
   - 
   - 
@@ -42,8 +45,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Decor
+    uniqueID: 2611032247
+    locked: 0
+  - name: Background-2
     uniqueID: 4157197843
+    locked: 0
+  - name: Background-1
+    uniqueID: 229543455
+    locked: 0
+  - name: Water
+    uniqueID: 3928662823
     locked: 0
   - name: Ground
     uniqueID: 3935398757
@@ -53,4 +65,10 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 624789331
+    locked: 0
+  - name: Enemy
+    uniqueID: 837260933
+    locked: 0
+  - name: Platform
+    uniqueID: 3820022869
     locked: 0
